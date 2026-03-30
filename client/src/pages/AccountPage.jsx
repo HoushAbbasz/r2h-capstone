@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
 // base api url for all requests
-const API = "https://86yc8vtkk4.execute-api.us-east-1.amazonaws.com";
+const API = import.meta.env.VITE_API_URL;
 
 // color palette object for consistent theming throughout the component
 const T = {

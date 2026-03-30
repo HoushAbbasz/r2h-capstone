@@ -6,7 +6,7 @@ import { useAuth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
  
 // base api url for auth requests
-const API = "https://86yc8vtkk4.execute-api.us-east-1.amazonaws.com";
+const API = import.meta.env.VITE_API_URL;
  
 // color palette object — exported so other files can import it if needed
 export const T = {

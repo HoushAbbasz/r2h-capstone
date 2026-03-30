@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import  logo from "../assets/logo.png";
  
 // base api url for all requests
-const API = "https://86yc8vtkk4.execute-api.us-east-1.amazonaws.com";
+const API = import.meta.env.VITE_API_URL;
  
 // color palette object for consistent theming
 const T = {

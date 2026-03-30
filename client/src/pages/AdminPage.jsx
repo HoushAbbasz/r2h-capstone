@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { useAuth } from "../context/AuthContext";
  
 // base api url for all admin requests
-const API = "https://86yc8vtkk4.execute-api.us-east-1.amazonaws.com";
+const API = import.meta.env.VITE_API_URL;
  
 // color palette object for consistent theming
 const T = {
